@@ -1,0 +1,16 @@
+ion-card-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cat{
+  &__image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+.text-right{
+  text-align: right;
+}
